@@ -1,3 +1,63 @@
 # Data Analysis Using Raven Pro
 ## Introduction
 Raven Pro is sotware developed by Cornell University for the analysis of bioacoustic data. Raven Pro uses machine learning models to automatically identify specific sounds or vocalizations in audio recordings.
+
+## Prepare the audio files.
+**Windows**: Place the _make_listfile_WAV.bat file in the file containing data recordings (e.g., MSO23-1_000). Doubleclick the bat file to generate a list of audio file paths.
+**Mac or Linux**: Move all audio files into a single folder.
+
+
+## Open the audio files in Raven Pro.
+**Windows**: Open Raven Pro then drop the listfile created in Step 1 on to the Raven Pro window.
+**Mac or Linux**: Open Raven Pro, then go to the File menu and select Open Audio Files. Navigate to the folder you created in Step 1 and select all files. Click OK.
+
+## Begin analysis
+1. In the Configure New Sound window, select Page Sound with default values. Click OK.
+
+
+2. Uncheck the waveform view in the sidebar.
+
+
+3. Go to the Tools menu and select Detectors > Learning Detector. In the dialog box, double-click Waveform1(Sound1) in the right-hand column so it appears under the Required Inputs column at left. Click OK.
+
+
+4. In the Configure Machine Learning Detector dialog box, select the  Inputs tab and then  select BirdNET_GLOBAL_3K_V2.2 from the Model menu.
+
+
+5. On the Outputs tab, select birds_north_america.csv.
+
+
+6. Click the Suppress All button just above the Suppress column in the bird list.
+
+
+7. Click on the Common Name column header to sort by common name.
+
+
+8. Find Barred Owl in the list and uncheck its Suppress box. Do the same for Spotted Owl. Click OK.
+
+
+The detector will start running. It may take several hours for the detector to finish depending on the speed of your computer and the amount of data you are analyzing. Finish Time gives you an estimate of when the analysis will be complete.
+
+
+## Review and save results of analysis
+1. When the detector has finished, click Close on the Progress Manager.
+
+
+2. Any detections will appear in the selection table at the bottom of the Raven Pro window. Right-click on the header row of the selection table and select Choose Measurements… . Find Begin File in the right column, then double-click it so that it appears in the left column. Click OK.
+
+
+3. If the detector reports any hits, click on Score in the header row to sort hits by score.
+
+
+4. Right-click on the Learning Detector tab and select Save Table. By default the selection table will be saved to the Selections directory in the Raven Pro directory on your computer. Click Save.
+
+
+## Interpret Raven Pro results
+The fact that Raven Pro detects a vocalization does not guarantee that an actual vocalization was recorded. All detector hits must be confirmed manually. The value in the Score column indicates the model’s confidence that the indicated vocalization was detected. Higher score values indicate greater confidence. However, the score does not indicate the probability that Raven Pro correctly identified the vocalization. For example, a score of 0.87 does not indicate that there is an 87% chance Raven Pro correctly identified the vocalization.
+
+1. Make sure the selection table is sorted by score and then inspect hits in decreasing order of score.
+
+2. Click on the Score value for a hit in the selection table. A section of the spectrogram will be selected.
+
+
+3. Click the Play button (or select Play from the Play menu) to play the sound contained in the selection. Often the selection in the selection table will be very short so it may be helpful to manually create a larger selection to review that includes sound before and after the selection indicated in the selection table.
