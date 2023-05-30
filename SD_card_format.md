@@ -2,17 +2,19 @@
 
 This document provides the Linux CLI command for formatting SD cards for use in Swift recorders. The recommended format is FAT32, 64KB cluster (allocation unit) size recommended.
 
-## Format:
+## Format
 
 **Command:**
 `$ sudo mkdosfs /dev/sda1 -s 128 -F 32 -I`
 
-## Inspect:
+## Inspect
 
 **Command:**
 `$ sudo dosfsck -v -n /dev/sda1`
 
 **Example output:**
+
+If you have formatted the SD card successfully, the above command should generate the following output.
 
 ```
 fsck.fat 4.2 (2021-01-31)
