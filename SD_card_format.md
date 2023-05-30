@@ -12,7 +12,7 @@ This document provides the Linux CLI command for formatting SD cards for use in 
 **Command:**
 `$ sudo dosfsck -v -n /dev/sda1`
 
-**Example output:**
+**Example output**
 
 If you have formatted the SD card successfully, the above command should generate the following output.
 
