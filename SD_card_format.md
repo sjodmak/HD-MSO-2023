@@ -2,7 +2,7 @@
 
 ## Summary
 
-This document provides the Linux CLI command for formatting SD cards for use in Swift recorders. The recommended format is FAT32 with 64 KB cluster size.
+This document describes using the Linux CLI command `mkdosfs` to format SD cards for use in Swift recorders. The recommended format is FAT32 with 64 KB cluster size.
 
 ## Format
 
