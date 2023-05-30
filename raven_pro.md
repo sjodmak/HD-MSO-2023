@@ -35,7 +35,7 @@ Raven Pro is sotware developed by Cornell University for the analysis of bioacou
 7. Click on the *Common Name* column header to sort by common name.
 
 
-8. Find Barred Owl in the list and uncheck its *Suppress* box. Do the same for Spotted Owl. Click *OK*.
+8. Find *Barred Owl* in the list and uncheck its *Suppress* box. Do the same for *Spotted Owl*. Click *OK*.
 
 
 The detector will start running. It may take several hours for the detector to finish depending on the speed of your computer and the amount of data you are analyzing. *Finish Time* gives you an estimate of when the analysis will be complete.
