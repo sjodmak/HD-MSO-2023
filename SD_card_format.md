@@ -8,7 +8,7 @@ This document provides the Linux CLI command for formatting SD cards for use in 
 ## Inspect:
 `$ sudo dosfsck -v -n /dev/sda1`
 
-Example output:
+**Example output:**
 
 `fsck.fat 4.2 (2021-01-31)`
 
