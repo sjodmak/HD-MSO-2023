@@ -1,6 +1,6 @@
 # Data Analysis Using Raven Pro
 ## Introduction
-Raven Pro is sotware developed by Cornell University for the analysis of bioacoustic data. Raven Pro uses machine learning models to automatically identify specific sounds or vocalizations in audio recordings.
+Raven Pro is sotware developed by Cornell University for the analysis of bioacoustic data. Raven Pro uses machine learning models to automatically identify specific sounds or vocalizations in audio recordings. This document describes the use of Raven Pro to analyze audio data for the HD Mountains Mexican Spotted Owl project.
 
 ## Prepare the audio files.
 **Windows**: Place the _make_listfile_WAV.bat file in the file containing data recordings (e.g., MSO23-1_000). Doubleclick the bat file to generate a list of audio file paths.
@@ -9,7 +9,7 @@ Raven Pro is sotware developed by Cornell University for the analysis of bioacou
 
 
 ## Open the audio files in Raven Pro.
-**Windows**: Open Raven Pro then drop the listfile created in Step 1 on to the Raven Pro window.
+**Windows**: Open Raven Pro then drop the listfile created previously on to the Raven Pro window.
 
 **Mac or Linux**: Open Raven Pro, then go to the File menu and select Open Audio Files. Navigate to the folder you created in Step 1 and select all files. Click OK.
 
