@@ -1,4 +1,6 @@
-# Linux SD Card format for Swift Recorders
+# Linux SD Card Format for Swift Recorders
+
+## Summary
 
 This document provides the Linux CLI command for formatting SD cards for use in Swift recorders. The recommended format is FAT32 with 64 KB cluster size.
 
