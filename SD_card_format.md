@@ -44,7 +44,11 @@ Checking free cluster summary.
 
 ## Reference:
 
+[https://www.birds.cornell.edu/ccb/wp-content/uploads/2016/09/SWIFT-SD-Card-Formatting-Protocol.pdf](https://www.birds.cornell.edu/ccb/wp-content/uploads/2016/09/SWIFT-SD-Card-Formatting-Protocol.pdf)
+
 [https://askubuntu.com/questions/190030/formatting-a-drive-to-fat32-with-mkdosfs-need-some-info](https://askubuntu.com/questions/190030/formatting-a-drive-to-fat32-with-mkdosfs-need-some-info)
 
 [https://askubuntu.com/questions/1231020/how-to-consult-fat32-cluster-size-on-ubuntu](https://askubuntu.com/questions/1231020/how-to-consult-fat32-cluster-size-on-ubuntu)
+
+[https://en.wikipedia.org/wiki/Disk_sector#Sectors_versus_clusters](https://en.wikipedia.org/wiki/Disk_sector#Sectors_versus_clusters)
 
