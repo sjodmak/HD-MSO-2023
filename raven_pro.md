@@ -23,7 +23,7 @@ Raven Pro is sotware developed by Cornell University for the analysis of bioacou
 3. Go to the **Tools** menu and select **Detectors > Learning Detector**. In the dialog box, double-click **Waveform1(Sound1)** in the right-hand column so it appears under the **Required Inputs** column at left. Click **OK**.
 
 
-4. In the **Configure Machine Learning Detector** dialog box, select the  **Inputs** tab and then select **BirdNET_GLOBAL_3K_V2**.2 from the **Model** menu.
+4. In the **Configure Machine Learning Detector** dialog box, select the  **Inputs** tab and then select **BirdNET_GLOBAL_3K_V2*2** from the **Model** menu.
 
 
 5. On the **Outputs** tab, select **birds_north_america.csv**.
