@@ -11,11 +11,7 @@ Raven Pro is sotware developed by Cornell University for the analysis of bioacou
 ## Open the audio files in Raven Pro
 **Windows**: Open Raven Pro then drop the listfile created previously on to the Raven Pro window.
 
-<<<<<<< HEAD
 **Mac or Linux**: Open Raven Pro, then go to the *File* menu and select *Open Audio Files*. Navigate to the folder you created in the previous step and select all files in the folder. Click *OK*.
-=======
-**Mac or Linux**: Open Raven Pro, then go to the **File** menu and select **Open Audio Files**. Navigate to the folder you created in Step 1 and select all files. Click **OK**.
->>>>>>> 14454be7ec6fcef5f9f540aeb857ebf1817fd4cf
 
 ## Begin analysis
 1. In the **Configure New Sound** window, select **Page Sound** with default values. Click **OK**.
@@ -55,11 +51,7 @@ The detector will start running. It may take several hours for the detector to f
 3. If the detector reports any hits, click on **Score** in the header row to sort hits by score.
 
 
-<<<<<<< HEAD
-4. Right-click on the *Learning Detector* tab and select *Save Table*. By default the selection table will be saved to the *Selections* directory in the *Raven Pro* directory on your computer. Click *Save*.
-=======
 4. Right-click on the **Learning Detector** tab and select **Save Table**. By default the selection table will be saved to the **Selections** folder in the Raven Pro folder on your computer. Click **Save**.
->>>>>>> 14454be7ec6fcef5f9f540aeb857ebf1817fd4cf
 
 
 ## Interpret Raven Pro results
@@ -69,9 +61,4 @@ The fact that Raven Pro reports it has detected a vocalization does not guarante
 
 2. Click on the *Score* value for a hit in the selection table. A section of the spectrogram will be selected.
 
-
-<<<<<<< HEAD
 3. Click the *Play* button (or select *Play* from the *Play* menu) to play the sound contained in the selection. Often the selection in the selection table will be very short; it may be helpful to manually create a larger selection that includes sound before and after the selection indicated in the selection table. Create the selection by clicking and dragging on the spectrogram to create a rectangle containing the original hit. Click the *Play* button to listen to the selection. You can press the *Delete* button on your keyboard to remove the selection when you are finished reviewing it.
-=======
-3. Click the **Play** button (or select **Play** from the **Play** menu) to play the sound contained in the selection. Often the selection in the selection table will be very short so it may be helpful to manually create a larger selection to review that includes sound before and after the selection indicated in the selection table.
->>>>>>> 14454be7ec6fcef5f9f540aeb857ebf1817fd4cf
